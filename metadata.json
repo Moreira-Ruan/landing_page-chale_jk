@@ -1,0 +1,6 @@
+{
+  "name": "Chalé JK Pirenópolis",
+  "description": "Landing Page oficial do Chalé JK em Pirenópolis - A sua cabana dentro de Piri. Acompanhe o progresso da obra e prepare-se para sua hospedagem.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

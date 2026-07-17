@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-serif: 'Lora', Georgia, serif;
+  --font-sans: 'Inter', system-ui, sans-serif;
+  --color-brand-dark: #2a4128;
+  --color-brand-medium: #486144;
+  --color-brand-light: #F0F2F0;
+  --color-brand-cream: #FAFAFA;
+}
+
+/* Custom styles for smooth scrolling and clean layouts */
+html {
+  scroll-behavior: smooth;
+  background-color: #FAFAFA;
+}
+
+body {
+  font-family: var(--font-sans);
+  color: #1a2a18;
+}
+
+/* Base custom classes to make it easier to maintain styles */
+.serif-title {
+  font-family: var(--font-serif);
+}
+
