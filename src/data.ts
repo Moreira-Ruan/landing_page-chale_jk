@@ -1,23 +1,22 @@
 import { GalleryItem, FaqItem, Milestone, Attraction, AmenityItem } from './types';
 
-// High-resolution premium placeholder image URLs to replace the deleted local webp files
-const backgroundWebp = "src/assets/background.webp";
-const projetoSemMetragemWebp = "src/assets/projeto-sem-metragem.webp";
-const quartoWebp = "src/assets/quarto.webp";
-const estruturaWebp = "src/assets/estrutura.webp";
-const fundacaoWebp = "src/assets/fundacao.webp";
-const banheiroWebp = "src/assets/banheiro.webp";
-const cozinhaWebp = "src/assets/cozinha.webp";
-const salaWebp = "src/assets/sala.webp";
-const paisagemWebp = "src/assets/paisagem.webp";
-const paisagem2Webp = "src/assets/paisagem2.webp";
-const paisagem3Webp = "src/assets/paisagem3.webp";
-const fundacao2Webp = "src/assets/fundacao2.webp";
-const fundacao3Webp = "src/assets/fundacao3.webp";
-const fundacao4Webp = "src/assets/fundacao4.webp";
-const estrutura2Webp = "src/assets/estrutura2.webp";
-const estrutura3Webp = "src/assets/estrutura3.webp";
-const paisagem4Webp = "src/assets/paisagem4.webp";
+const backgroundWebp = new URL('./assets/background.webp', import.meta.url).href;
+const projetoSemMetragemWebp = new URL('./assets/projeto-sem-metragem.webp', import.meta.url).href;
+const quartoWebp = new URL('./assets/quarto.webp', import.meta.url).href;
+const estruturaWebp = new URL('./assets/estrutura.webp', import.meta.url).href;
+const fundacaoWebp = new URL('./assets/fundacao.webp', import.meta.url).href;
+const banheiroWebp = new URL('./assets/banheiro.webp', import.meta.url).href;
+const cozinhaWebp = new URL('./assets/cozinha.webp', import.meta.url).href;
+const salaWebp = new URL('./assets/sala.webp', import.meta.url).href;
+const paisagemWebp = new URL('./assets/paisagem.webp', import.meta.url).href;
+const paisagem2Webp = new URL('./assets/paisagem2.webp', import.meta.url).href;
+const paisagem3Webp = new URL('./assets/paisagem3.webp', import.meta.url).href;
+const fundacao2Webp = new URL('./assets/fundacao2.webp', import.meta.url).href;
+const fundacao3Webp = new URL('./assets/fundacao3.webp', import.meta.url).href;
+const fundacao4Webp = new URL('./assets/fundacao4.webp', import.meta.url).href;
+const estrutura2Webp = new URL('./assets/estrutura2.webp', import.meta.url).href;
+const estrutura3Webp = new URL('./assets/estrutura3.webp', import.meta.url).href;
+const paisagem4Webp = new URL('./assets/paisagem4.webp', import.meta.url).href;
 
 export { backgroundWebp };
 
