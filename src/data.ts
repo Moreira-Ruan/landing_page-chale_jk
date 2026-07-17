@@ -315,7 +315,7 @@ export const GUEST_GALLERY_ITEMS: GalleryItem[] = [
     id: "gg1",
     title: "Fachada Iluminada ao Entardecer",
     category: "leisure",
-    imageUrl: "https://images.unsplash.com/photo-1583037189850-1921ae7c6c22?auto=format&fit=crop&w=1200&q=80",
+    imageUrl: "https://images.unsplash.com/photo-1575403071235-5dcd06cbf169?auto=format&fit=crop&w=1200&q=80",
     description: "A icônica arquitetura A-Frame com luzes quentes internas integrando perfeitamente à paisagem nativa de Pirenópolis.",
     date: "Experiência Exclusiva"
   },
@@ -331,7 +331,7 @@ export const GUEST_GALLERY_ITEMS: GalleryItem[] = [
     id: "gg3",
     title: "Banheira de Hidro no Banheiro",
     category: "leisure",
-    imageUrl: "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=1200&q=80",
+    imageUrl: "https://images.unsplash.com/photo-1717497043540-d45bf85e5d38?auto=format&fit=crop&w=1200&q=80",
     description: "Banheira de hidromassagem com aquecimento inteligente e iluminação relaxante de cromoterapia instalada dentro do banheiro para maior privacidade.",
     date: "Relaxamento & Spa"
   },
@@ -339,7 +339,7 @@ export const GUEST_GALLERY_ITEMS: GalleryItem[] = [
     id: "gg4",
     title: "Cozinha Planejada Equipada",
     category: "kitchen",
-    imageUrl: "https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=1200&q=80",
+    imageUrl: "https://images.unsplash.com/photo-1716408717774-2707347345c7?auto=format&fit=crop&w=1200&q=80",
     description: "Prepare refeições deliciosas com cooktop por indução, forno embutido, frigobar espaçoso e utensílios de alto padrão.",
     date: "Sabor & Praticidade"
   },
@@ -347,7 +347,7 @@ export const GUEST_GALLERY_ITEMS: GalleryItem[] = [
     id: "gg5",
     title: "Deck de Contemplação",
     category: "nature",
-    imageUrl: "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&w=1200&q=80",
+    imageUrl: "https://images.unsplash.com/photo-1716904519810-349244919824?auto=format&fit=crop&w=1200&q=80",
     description: "Amplo deck integrado à mata nativa, ideal para contemplar o Cerrado preservado e ouvir os sons relaxantes da natureza.",
     date: "Imersão Natural"
   },
@@ -355,7 +355,7 @@ export const GUEST_GALLERY_ITEMS: GalleryItem[] = [
     id: "gg6",
     title: "Paz e Conexão na Mata Preservada",
     category: "nature",
-    imageUrl: "https://images.unsplash.com/photo-1510798831971-661eb04b3739?auto=format&fit=crop&w=1200&q=80",
+    imageUrl: "https://images.unsplash.com/photo-1655064819399-d5ecd9718076?auto=format&fit=crop&w=1200&q=80",
     description: "O chalé é totalmente cercado por mata nativa intacta, proporcionando cantos de pássaros silvestres e silêncio terapêutico.",
     date: "Imersão Natural"
   }

@@ -13,7 +13,6 @@ export const PhaseToggle: React.FC<PhaseToggleProps> = ({ currentPhase, onChange
   const [showComingSoon, setShowComingSoon] = useState(false);
 
   return (
-    /* CORREÇÃO AQUI: Removidas as classes 'sticky', 'top-0' e 'z-50' para que ele herde o comportamento do bloco pai no App.tsx */
     <div className="bg-brand-dark text-brand-cream border-b border-brand-medium/30 py-3.5 px-4 w-full shadow-sm" id="phase-toggle-banner">
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-3 text-sm">
         <div className="flex items-center gap-2.5 text-center md:text-left">
@@ -66,7 +65,6 @@ export const PhaseToggle: React.FC<PhaseToggleProps> = ({ currentPhase, onChange
       {/* Modern, elegant coming soon modal */}
       <AnimatePresence>
         {showComingSoon && (
-          /* z-55 mantido para sobrepor o cabeçalho sticky global */
           <div className="fixed inset-0 z-55 flex items-center justify-center p-4 bg-black/60 backdrop-blur-sm">
             <motion.div 
               initial={{ opacity: 0, scale: 0.95 }}

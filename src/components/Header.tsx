@@ -23,7 +23,6 @@ export const Header: React.FC<HeaderProps> = ({ phase }) => {
   };
 
   return (
-    /* MUDANÇA AQUI: Removido sticky e top fixos antigos; adicionado w-full para se adequar ao fluxo do container pai */
     <header className="bg-brand-cream/90 backdrop-blur-md border-b border-brand-dark/10 w-full z-40 transition-all" id="main-header">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-24 sm:h-28 md:h-32">

@@ -16,7 +16,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ phase }) => {
         <img
           src={phase === 'phase1' 
             ? backgroundWebp
-            : "https://images.unsplash.com/photo-1583037189850-1921ae7c6c22?auto=format&fit=crop&w=1920&q=80" // Cozy lit chalet render
+            : "https://images.unsplash.com/photo-1604178450035-38e6a54ffa0c?auto=format&fit=crop&w=1200&q=80" // Cozy lit chalet render
           }
           alt="Chalé JK Pirenópolis"
           className="w-full h-full object-cover object-center scale-105 transition-all duration-[2000ms] ease-out filter brightness-[0.42] contrast-[1.05]"
