@@ -8,6 +8,7 @@ import { InteractiveFaq } from './components/InteractiveFaq';
 import { Footer } from './components/Footer';
 import { Phase } from './types';
 import { motion, AnimatePresence } from 'motion/react';
+import { Analytics } from '@vercel/analytics/react';
 
 export default function App() {
   const [phase, setPhase] = useState<Phase>('phase1');
@@ -52,6 +53,9 @@ export default function App() {
 
       {/* Footer details, copyright declarations, and dynamic reservation status */}
       <Footer phase={phase} />
+
+      {/* Monitoramento de acessos em tempo real da Vercel */}
+      <Analytics />
     </div>
   );
 }
