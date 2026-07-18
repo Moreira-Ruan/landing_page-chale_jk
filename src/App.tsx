@@ -9,6 +9,7 @@ import { Footer } from './components/Footer';
 import { Phase } from './types';
 import { motion, AnimatePresence } from 'motion/react';
 import { Analytics } from '@vercel/analytics/react';
+import { SpeedInsights } from '@vercel/speed-insights/react';
 
 export default function App() {
   const [phase, setPhase] = useState<Phase>('phase1');
@@ -17,7 +18,6 @@ export default function App() {
     <div className="min-h-screen bg-brand-cream text-brand-dark flex flex-col font-sans selection:bg-brand-medium/20 selection:text-brand-dark" id="app-root">
       
       {/* ─── ENVELOPE DO CABEÇALHO ÚNICO E FIXO ─── */}
-      {/* Esse bloco prende tudo no topo. O z-40 garante que ele fique acima do conteúdo, mas abaixo de modais ou menus se necessário */}
       <div className="sticky top-0 z-40 w-full flex flex-col">
         {/* Dynamic phase selector floating alert banner */}
         <PhaseToggle currentPhase={phase} onChangePhase={setPhase} />
@@ -56,6 +56,9 @@ export default function App() {
 
       {/* Monitoramento de acessos em tempo real da Vercel */}
       <Analytics />
+
+      {/* Monitoramento de métricas de performance (Core Web Vitals) */}
+      <SpeedInsights />
     </div>
   );
 }
