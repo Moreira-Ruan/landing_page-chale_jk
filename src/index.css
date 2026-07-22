@@ -28,9 +28,11 @@ body {
   background-color: #FAFAFA;
 }
 
-/* Impede que navegadores móveis apliquem filtros de inversão de cor em fotos ou ícones */
-img, svg, picture {
-  filter: none !important;
+/* Impede que navegadores móveis apliquem filtros de inversão de cor em fotos ou ícones, mantendo filtros intencionais */
+img:not([class*="brightness"]):not([class*="invert"]):not([class*="filter"]), 
+svg:not([class*="brightness"]):not([class*="invert"]):not([class*="filter"]), 
+picture {
+  filter: none;
 }
 
 /* Base custom classes to make it easier to maintain styles */
