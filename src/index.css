@@ -10,19 +10,30 @@
   --color-brand-cream: #FAFAFA;
 }
 
+/* Trava global do engine de renderização para forçar modo claro */
+:root {
+  color-scheme: light only;
+}
+
 /* Custom styles for smooth scrolling and clean layouts */
 html {
   scroll-behavior: smooth;
   background-color: #FAFAFA;
+  color-scheme: light only;
 }
 
 body {
   font-family: var(--font-sans);
   color: #1a2a18;
+  background-color: #FAFAFA;
+}
+
+/* Impede que navegadores móveis apliquem filtros de inversão de cor em fotos ou ícones */
+img, svg, picture {
+  filter: none !important;
 }
 
 /* Base custom classes to make it easier to maintain styles */
 .serif-title {
   font-family: var(--font-serif);
 }
-
